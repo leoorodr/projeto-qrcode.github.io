@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+#cabecalho{
+  height: 100px;
+  width: 100%;
+  position: relative;
+  top: -25px;
+  bottom: 2000px;
+}
+.barra{
+    background-color: black;
+    height: 75px;
+    width: 475px;
+    position: absolute;   
+    margin-top: 38px; 
+  }
+.logoSenai{
+  position: relative;
+  width: 100vh;
+  height: 100px;
+}
+.home{
+  position: absolute;
+  color: #E0EEEE;
+  margin-top: -50px;
+  font-size: 30px;
+}
+.home h1{
+  margin-left: 177px;
+  position: absolute;
+  color: #E0EEEE;
+  margin-top: 3px;
+  font-size: 38px;
+}
+
+h3{
+ text-align: center;
+ margin-top: 70px;
+ margin-left: 65px;
+}
+
+/* botão home */
+#btBusca{
+  margin-top: 20px;
+  margin-left: 15px;
+  border: #E0EEEE;
+  background-color: #ff0000 ;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  padding: 5px;
+  }
+  
+
+/* barra de pesquisa */
+#divBusca{
+    background-color:#E0EEEE;
+    border: none;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width: 72px;
+    font-weight:bold;
+    background:rgba(0, 0, 0, 0.356);
+  }
+  
+  #divBusca img{
+    float:left;
+    width: 25px;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
