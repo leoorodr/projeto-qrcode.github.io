@@ -69,6 +69,7 @@
     width: 40px;
     height: 40px;
     border-radius: 7px;
+    padding: 5px;
 }
 
 /* barra de pesquisa */
@@ -111,4 +112,10 @@
     width: 25px;
     margin-left: 5px;
     margin-top: 3px;
+}
+
+@media screen and (min-width: 560px){
+    header { 
+    background: url('https://www.agenciafiep.com.br/wp-content/uploads/2013/08/Olimpiada-do-Conhecimento-Maring%C3%A1-Mecanica-de-Precis%C3%A3o-075.jpg');
+    }
 }
