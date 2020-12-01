@@ -87,35 +87,9 @@ html{
     position: absolute;
     height: 40px;
 }
-.busca {
-    position: absolute;
-    margin-top: 10px;
-    background-color: #c03636d7;
-    border-radius: 10px;
-    height: 32px;
-}
-#txtBusca {
-    float: left;
-    background-color: transparent;
-    padding-left: 5px;
-    font-size: 18px;
-    border: none;
-    height: 32px;
-    width: 190px;
-    color: black;
-}
 ::-webkit-input-placeholder {
     color: black;
     font: 18px;
-}
-#btnBusca {
-    border: none;
-    float: right;
-    height: 32px;
-    border-radius: 0 7px 7px 0;
-    width: 74px;
-    font-weight: bold;
-    background: rgba(240, 2, 2, 0.282);
 }
 #divBusca img {
     float: left;

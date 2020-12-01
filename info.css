@@ -7,9 +7,6 @@
     width: 100%;
 }
 
-html{
-    background-color: rgb(128, 128, 128);
-}
 
 /* Background do SENAI */
 #imgsenai {
@@ -91,4 +88,42 @@ html{
     width: 25px;
     margin-left: 5px;
     margin-top: 3px;
+}
+
+.paragrafo{
+    position: absolute;
+    margin-top: 220px;
+    text-align: center;
+}
+
+.imgmaquina{
+    position: absolute;
+}
+
+.btnManual{
+    position: relative;
+    background-color: #ff0800; 
+    border-radius: 36px; 
+    padding: 15px; 
+    cursor: pointer; 
+    border: none; 
+    font-size: 16px; 
+    margin-top: 345px;
+}
+.btnSeguranca{
+    position: relative;
+    background-color: #ff0800; 
+    border-radius: 36px; 
+    padding: 15px; 
+    cursor: pointer; 
+    border: none; 
+    font-size: 16px; 
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #ff0800;
+    margin-top: 45px;
+    text-align: center;
+    padding: 20px;
 }
