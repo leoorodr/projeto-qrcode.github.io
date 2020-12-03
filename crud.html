@@ -1,22 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="/CSS/crud.css" />
-    <title>CRUD</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="/CSS/crud.css">
+  <link rel="stylesheet" href="/CSS/menu-crud.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <img id="imgsenai" src="https://grafica.sp.senai.br/img/senai_facebook.png" />
+
+  <div class="barra">
+    <input type=image id="botaoverm" class="toggle-menu" src="https://image.flaticon.com/icons/png/512/56/56763.png" />
     <h1>CRUD</h1>
+  </div>
+
+  <div class="wrapper">
+    <div class="canvas">
+
+      <!-- Aqui fica o menu escondido -->
+      <div class="menu">
+        <a href="#" class="toggle-menu btn">Fechar o menu</a>
+        <ul>
+          <li><a class="maquina" href="info.html">TORNO SCHAUBLIM</a></li>
+          <li><a class="maquina" href="#">Máquina 2</a></li>
+          <li><a class="maquina" href="#">Máquina 3</a></li>
+          <li><a class="maquina" href="home.html">Home</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <link rel="stylesheet" href="/CSS/menu-home.css" />
+  <link rel="stylesheet" href="/CSS/crud.css" />
+
+  <br>
+  <center>
     <form id="Formulario">
       <label for="Input"> Nome: </label>
       <input id="Input" type="text" placeholder="Informe o nome da máquina" />
     </form>
-
+    <br>
     <h2>Máquinas cadastradas:</h2>
-    <div id="nomes"></div>
+    <br>
+  </center>
 
-    <script src="crud.js"></script>
-  </body>
+  <div id="nomes"></div>
+
+  <script src="/JS/menu.js"></script>
+  <script src="/JS/crud.js"></script>
+</body>
 </html>
