@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="/CSS/info.css">
     <link rel="stylesheet" href="/CSS/menu-info.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
 </head>
@@ -17,8 +20,7 @@
 
 
     <div class="barra">
-        <input type=image id="botaoverm" class="toggle-menu"
-            src="/IMG/tresBarras.png" />
+        <input type=image id="botaoverm" class="toggle-menu" src="/IMG/tresBarras.png" />
         <h1>TORNO SCHAUBLIN</h1>
     </div>
 
@@ -38,38 +40,79 @@
         </div>
     </div>
 
-    <img class="imgmaquina"
-        src="/IMG/image.png"
-        height="225">
+    <script>
+        $('.carousel').carousel('pause')
+    </script>
+
+    <img class="imgmaquina" src="/IMG/image.png" height="225">
 
     <div class="paragrafo">
         <br>
         <p>(Parágrafo com informações da máquina)</p>
         <br>
-        <br>
         <h3>Como lubrificar a máquina</h3>
-    </div>
-    <br>
-    <br>
 
-    <center>
-        <a href="instrucao.html"><button class="btnManual">Manual de instruções</button></a>
+        <div class="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="30000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
 
-        <a href="seguranca.html"><button class="btnSeguranca">Manual de segurança</button></a>
-    </center>
-    
-    
-    <footer>        
-        <img src="/IMG/logosenai.png" alt="logo senai" class="logo">
-        <Br>
-        <p><strong> Telefone: </strong> (11) 5642-3400 <br>
-        <strong> Email: </strong> secretaria115@sp.senai.br <br>
-        <strong> Endereço: </strong> Rua Bento Branco de Andrade Filho,379 - Santo Amaro - São Paulo/SP - CEP 04757-000</p>
-        <br>
-    </footer>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active" width="370" height="200">
+                        <video width="370" height="200" autoplay loop controls>
+                            <source src="/VIDEO/v1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="item">
+                        <video width="370" height="200" autoplay loop controls>
+                            <source src="/VIDEO/v2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="item">
+                        <video width="370" height="200" autoplay loop controls>
+                            <source src="/VIDEO/v3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
 
 
-    <script src="/JS/menu.js"></script>
+        <center>
+            <a href="instrucao.html"><button class="btnManual">Manual de instruções</button></a>
+
+            <a href="seguranca.html"><button class="btnSeguranca">Manual de segurança</button></a>
+        </center>
+
+
+        <footer>
+            <img src="/IMG/logosenai.png" alt="logo senai" class="logo">
+            <Br>
+            <p><strong> Telefone: </strong> (11) 5642-3400 <br>
+                <strong> Email: </strong> secretaria115@sp.senai.br <br>
+                <strong> Endereço: </strong> Rua Bento Branco de Andrade Filho,379 - Santo Amaro - São Paulo/SP -
+                CEP: 04757-000</p>
+            <br>
+        </footer>
+
+        <script src="/JS/menu.js"></script>
 </body>
 
 </html>
