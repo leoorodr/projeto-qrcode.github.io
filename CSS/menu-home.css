@@ -69,3 +69,16 @@ p {
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
+
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+/* RESPONSIVIDADE */ /* RESPONSIVIDADE */
+
+@media screen and (width:1280px) and (height:881px){
+   .menu{
+    height: calc(100% + 520px);
+   }
+    
+}
