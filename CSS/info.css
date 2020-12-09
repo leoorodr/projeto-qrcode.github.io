@@ -52,10 +52,21 @@
     text-align: center;
 }
  
+.paragrafo, h3{
+    margin-top: 350px;
+}
+
+
+
 .imgmaquina{
     position: absolute;
-}
- 
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%) 
+} 
 .btnManual{
     position: relative;
     background-color: #ff0800; 
@@ -84,7 +95,7 @@
 
 footer{
     height: 240px;
-    background-color: #ff0800;
+    background-color: #BF0000;
     padding: 5px;
     margin-top: 80px;
 }
@@ -116,3 +127,5 @@ strong{
 .carousel-indicator li{
     position: relative;
 }
+
+
