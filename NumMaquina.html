@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRUD</title>
-  <link rel="stylesheet" href="/CSS/crud.css">
-  <link rel="stylesheet" href="/CSS/menu-crud.css">
+  <title>Máquinas cadastradas</title>
+  <link rel="stylesheet" href="/CSS/NumMaquina.css">
+  <link rel="stylesheet" href="/CSS/menu-NumMaquina.css">
+  <link rel="stylesheet" href="/JS/crud.js">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
@@ -18,7 +19,7 @@
 
   <div class="barra">
     <input type=image id="botaoverm" class="toggle-menu" src="https://image.flaticon.com/icons/png/512/56/56763.png" />
-    <h1>CRUD</h1>
+    <h1>Cadastro</h1>
   </div>
 
   <div class="wrapper">
@@ -38,33 +39,48 @@
     </div>
   </div>
 
-  <link rel="stylesheet" href="/CSS/menu-crud.css" />
-  <link rel="stylesheet" href="/CSS/crud.css" />
+  <link rel="stylesheet" href="/CSS/menu-NumMaquina.css" />
+  <link rel="stylesheet" href="/CSS/NumMaquina.css" />
 
   <br>
-  <center>
-    <form id="Formulario">
-      <label for="Input"> Nome: </label>
-      <input id="Input" type="text" placeholder="Informe o nome da máquina" />
-    </form>
-    <br>
-    <h2>Máquinas cadastradas:</h2>
-    <br>
-  </center>
+  <input class="text" type="text" name="Nome" size="40" placeholder="Nome da máquina..." />
 
-  <div id="nomes"></div>
+  <p>
+    <input class="up" type="file" multiple="" class="manual-file-chooser" id="upload-manifest-files-input"
+      aria-label="Choose your files">
 
-  
-  <footer>        
+    <input class="text" type="text" name="Nome" size="40" placeholder="Introdução sobre a máquina..." />
+
+  <p>
+    <input class="up" type="file" multiple="" class="manual-file-chooser" id="upload-manifest-files-input"
+      aria-label="Choose your files">
+
+
+  <p>
+    <input class="up" type="file" multiple="" class="manual-file-chooser" id="upload-manifest-files-input"
+      aria-label="Choose your files">
+
+
+  <p>
+    <input class="up" type="file" multiple="" class="manual-file-chooser" id="upload-manifest-files-input"
+      aria-label="Choose your files">
+    <br>
+
+    <button class="add">Adicionar</button>
+
+
+  <footer>
     <img src="/IMG/logosenai.png" alt="logo senai" class="logo">
     <Br>
     <p><strong> Telefone: </strong> (11) 5642-3400 <br>
-    <strong> Email: </strong> secretaria115@sp.senai.br <br>
-    <strong> Endereço: </strong> Rua Bento Branco de Andrade Filho,379 - Santo Amaro - São Paulo/SP - CEP 04757-000</p>
+      <strong> Email: </strong> secretaria115@sp.senai.br <br>
+      <strong> Endereço: </strong> Rua Bento Branco de Andrade Filho,379 - Santo Amaro - São Paulo/SP - CEP 04757-000
+    </p>
     <br>
-</footer>
+  </footer>
 
   <script src="/JS/menu.js"></script>
   <script src="/JS/crud.js"></script>
 </body>
+
 </html>
