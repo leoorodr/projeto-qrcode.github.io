@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Inter:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+html{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Background do SENAI */
+#imgsenai {
+    top: -10px;
+    height: 170px;
+    position: relative;
+}
+
+
+/* Barra preta */
+.barra {
+    background-color: black;
+    position: relative;
+    margin-top: -15px;
+}
+/* Título da Página */
+.barra h1 {
+    font-family: Roboto;
+    position: absolute;
+    color: #E0EEEE;
+    font-size: 28px;
+    text-align: center;
+    padding: 0;
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* Texto */
+.paragrafo h3 {
+    text-align: center;
+    line-height: 25px;    
+    font-family: 'Asap', sans-serif;    
+    text-align: center;
+    font-size: 20px;        
+    line-height: 24px;
+}
+
+
+/* Imagem dos alunos */
+.imgalunos {
+    position: static;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 100%;   
+}
+
+.text{
+    width: 200px;    
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+/* botão home */
+#botaoverm {
+    margin-top: 5px;
+    margin-left: 15px;
+    border: #E0EEEE;
+    background-color: #ff0000;
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    padding: 5px;
+}
+ 
+footer{
+    height: 240px;
+    background-color: #BF0000;
+    padding: 5px;
+    margin-top: 95px;
+}
+
+footer p{
+    margin-top: 100px;
+    font-size: 15px;
+    color: #E0EEEE;
+    line-height: 20px;
+}
+strong{
+    color: black;
+}
+.logo{
+    width: 167px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%) 
+}
+.add{    
+    width: 200px;    
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.up{    
+    width: 300px;    
+    margin-left: 40px;
+}
+

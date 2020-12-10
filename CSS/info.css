@@ -27,7 +27,7 @@
     color: #E0EEEE;
     font-size: 25px;
     text-align: center;
-    width: 300px;
+    width: 250px;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -69,7 +69,7 @@
 } 
 .btnManual{
     position: relative;
-    background-color: #ff0800; 
+    background-color: #BF0000; 
     border-radius: 36px; 
     padding: 15px; 
     cursor: pointer; 
@@ -77,11 +77,11 @@
     font-size: 16px; 
     margin-top: 45px;
     width: 65%;
-    color: black;
+    color: #ffffff;
 }
 .btnSeguranca{
     position: relative;
-    background-color: #ff0800; 
+    background-color: #BF0000; 
     border-radius: 36px; 
     padding: 15px; 
     cursor: pointer; 
@@ -89,27 +89,9 @@
     font-size: 16px; 
     margin-top: 30px;
     width: 65%;
-    color: black;
+    color: #ffffff;
 }
  
-
-footer{
-    height: 240px;
-    background-color: #BF0000;
-    padding: 5px;
-    margin-top: 80px;
-}
-
-footer p{
-    margin-top: 100px;
-    font-size: 17px;
-    color: #E0EEEE;
-    line-height: 20px;
-    text-align: left;
-}
-strong{
-    color: black;
-}
 .logo{
     width: 167px;
     height: 120px;
@@ -126,6 +108,25 @@ strong{
 
 .carousel-indicator li{
     position: relative;
+}
+
+footer{
+    height: 240px;
+    background-color: #BF0000;
+    padding: 5px;
+    margin-top: 80px;
+}
+
+footer p{
+    margin-top: 100px;
+    font-size: 17px;
+    color: #E0EEEE;
+    line-height: 20px;
+    text-align: left;
+}
+
+strong{
+    color: black;
 }
 
 
