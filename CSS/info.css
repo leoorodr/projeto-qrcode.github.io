@@ -112,21 +112,26 @@
 
 footer{
     height: 240px;
-    background-color: #BF0000;
+    background-color:#BF0000;
     padding: 5px;
-    margin-top: 80px;
+    margin-top: 200px;
 }
 
 footer p{
     margin-top: 100px;
-    font-size: 17px;
+    font-size: 15px;
     color: #E0EEEE;
     line-height: 20px;
     text-align: left;
 }
-
 strong{
     color: black;
 }
-
-
+.logo{
+    width: 167px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%) 
+}
