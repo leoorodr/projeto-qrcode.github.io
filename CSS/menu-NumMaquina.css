@@ -29,7 +29,7 @@ p {
     padding: 20px;
     z-index: 1;
     transition: .3s ease all;    
-    height: calc(100% + 543px);
+    height: calc(100% + 390px);
 }
 
 .menu ul {

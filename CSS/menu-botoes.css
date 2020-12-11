@@ -31,6 +31,7 @@ p {
 }
 
 .menu {
+    margin-top: -45px;
     position: absolute;
     transform: translateX(-300px);
     width: 300px;
@@ -38,7 +39,7 @@ p {
     padding: 20px;
     z-index: 1;
     transition: .3s ease all;    
-    height: calc(100% + 440px);
+    height: calc(100% + 250px);
 }
 
 .menu ul {

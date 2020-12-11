@@ -60,13 +60,6 @@ html{
     height: 100%;   
 }
 
-.text{
-    width: 200px;    
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
-
 /* botão home */
 #botaoverm {
     margin-top: 5px;
@@ -83,7 +76,7 @@ footer{
     height: 240px;
     background-color: #BF0000;
     padding: 5px;
-    margin-top: 95px;
+    margin-top: 137px;
 }
 
 footer p{
@@ -95,6 +88,7 @@ footer p{
 strong{
     color: black;
 }
+
 .logo{
     width: 167px;
     height: 120px;
@@ -103,14 +97,11 @@ strong{
     margin-right: -50%;
     transform: translate(-50%) 
 }
-.add{    
-    width: 200px;    
-    margin-left: 80px;
-    margin-right: 80px;
-}
 
-.up{    
-    width: 300px;    
-    margin-left: 40px;
-}
 
+.container{
+    margin: auto;
+    width: 80%;
+    background: #fff;
+    padding: 10px;
+}
