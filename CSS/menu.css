@@ -1,68 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    
-    background: #F6F6F2;
+  background: #f6f6f2;
 }
 
 a {
-    color: #BF0000;
+  color: #bf0000;
 }
 
 h1 {
-    padding: 25px 0;
+  padding: 25px 0;
 }
 
 p {
-    font-size: 18px;
-    line-height: 30px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .canvas {
-    position: relative;
-    transform: translate3d(0);
-    transition: .3s ease all;
-    backface-visibility: hidden;
+  position: relative;
+  transform: translate3d(0);
+  transition: 0.3s ease all;
+  backface-visibility: hidden;
 }
 
 .menu {
-    height: 100%;
-    position: absolute;
-    transform: translate3d(-300px,0,0);
-    width: 300px;
-    background: #BF0000;
-    padding: 5rem;
+  height: 100%;
+  position: absolute;
+  transform: translate3d(-300px, 0, 0);
+  width: 300px;
+  background: #bf0000;
+  padding: 5rem;
 }
 
 .menu ul {
-    list-style: none;
+  list-style: none;
 }
 
 .menu .btn {
-    background: #FFF;
-    color:#BF0000;
-    border-radius: 5px;
-    margin-bottom: 30px;
+  background: #fff;
+  color: #bf0000;
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 .menu a {
-    font-size: 1em;
-    display: inline-block;
-    padding: 10px;
-    color: #FFF;
-    text-decoration: none;
+  font-size: 1em;
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .wrapper.show-menu .canvas {
-    transform: translate3d(300px,0,0);
+  transform: translate3d(300px, 0, 0);
 }
