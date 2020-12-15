@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Máquinas cadastradas</title>
+  <link rel="stylesheet" href="/CSS/uploadMaquina.css">
+  <link rel="stylesheet" href="/CSS/menu-uploadMaquina.css">
+  <link rel="stylesheet" href="/JS/crud.js">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <img id="imgsenai" src="https://grafica.sp.senai.br/img/senai_facebook.png" />
+
+  <div class="barra">
+    <input type=image id="botaoverm" class="toggle-menu" src="https://image.flaticon.com/icons/png/512/56/56763.png" />
+    <h1>Cadastro</h1>
+  </div>
+
+  <div class="wrapper">
+    <div class="canvas">
+
+      <!-- Aqui fica o menu escondido -->
+      <div class="menu">
+        <a href="#" class="toggle-menu btn">Fechar o menu</a>
+        <ul>          
+          <li><a class="maquina" href="index.html">Home</a></li>
+          <li><a class="maquina" href="pgnMaquina1.html">TORNO SCHAUBLIM</a></li>
+          <li><a class="maquina" href="#">Máquina 2</a></li>
+          <li><a class="maquina" href="#">Máquina 3</a></li>
+          <li><a class="maquina" href="pgnCrud.html">Adicionar máquinas</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <link rel="stylesheet" href="/CSS/menu-NumMaquina.css" />
+  <link rel="stylesheet" href="/CSS/NumMaquina.css" />
+
+  <div class="container">
+    <br>
+    <input class="text" type="text" name="Nome" size="40" placeholder="Nome da máquina..." />
+
+    <p>
+      <input class="up" type="file" multiple="" class="manual-file-chooser" id="upload-manifest-files-input"
+        aria-label="Choose your files">
+
+      <input class="text" type="text" name="Nome" size="40" placeholder="Introdução sobre a máquina..." />
+
+    <p>
+      <input class="up" type="file" multiple="" class="manual-file-chooser" id="upload-manifest-files-input"
+        aria-label="Choose your files">
+
+
+    <p>
+      <input class="up" type="file" multiple="" class="manual-file-chooser" id="upload-manifest-files-input"
+        aria-label="Choose your files">
+
+
+    <p>
+      <input class="up" type="file" multiple="" class="manual-file-chooser" id="upload-manifest-files-input"
+        aria-label="Choose your files">
+      <br>
+
+      <button class="add">Adicionar</button>
+  </div>
+
+  <footer>
+    <img src="/IMG/logosenai.png" alt="logo senai" class="logo">
+    <Br>
+    <p><strong> Telefone: </strong> (11) 5642-3400 <br>
+      <strong> Email: </strong> secretaria115@sp.senai.br <br>
+      <strong> Endereço: </strong> Rua Bento Branco de Andrade Filho,379 - Santo Amaro - São Paulo/SP - CEP 04757-000
+    </p>
+    <br>
+  </footer>
+
+  <script src="/JS/menu.js"></script>
+  <script src="/JS/crud.js"></script>
+</body>
+
+</html>
