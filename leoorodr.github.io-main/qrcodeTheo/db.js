@@ -1,9 +1,10 @@
+
 async function connect(){
     if(global.connection && global.connection.state !== 'disconnected' )
      return global.connection;
 
-const mysql = require("mysql2/promise");
-const connection = await mysql.createConnection("mysql://app_qrcode:Senai115@DESKTOP-3NR8CSB:3306/crud");
+const mysql = require("mysql/promise");
+const connection = await mysql.createConnection("mysql://app_qrcode:Senai115@qrcode.brazilsouth.cloudapp.azure.com:3306/db_qrcode");
 console.log("Conectou no MySQL!");
 global.connection = connection;
 return connection;
@@ -21,8 +22,8 @@ return await rows;
 async function insertMaquinas(maquina){
 
     const conn = await connect();
-    const sql = 'INSERT INTO maquina(nome, manual , funcionamento) VALUES (?, ?, ?);';
-    const values = [maquina.nome, maquina.manual, maquina.funcionamento];
+    const sql = 'INSERT INTO maquina(nome, manualMaquina ,manualFuncionamento, id ) VALUES (?, ?, ?);';
+    const values = [maquina.nome, maquina.manualMaquina, maquina.manualFuncionamento];
     return await conn.query(sql, values);
 }
 
