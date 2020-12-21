@@ -42,7 +42,7 @@ p {
     padding: 20px;
     z-index: 50;
     transition: .3s ease all;    
-    height: calc(100% + 980px);
+    height: calc(100% + 1020px);
 }
 .menu ul {
     list-style: none;
