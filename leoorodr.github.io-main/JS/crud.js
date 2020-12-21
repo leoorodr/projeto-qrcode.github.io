@@ -1,7 +1,7 @@
 window.addEventListener('load', start);
 
 // Declarando Variáveis Globais
-var GlobalNames = ['Máquina 1', 'Máquina 2', 'Máquina 3', 'Máquina 4', 'Máquina 5'];
+var GlobalNames = ['Torno Schaublin', 'Máquina 2', 'Máquina 3', 'Máquina 4', 'Máquina 5'];
 var nomes = document.querySelector('#nomes');
 var ul = document.createElement('ul');
 var Input = document.getElementById('Input');

@@ -1,0 +1,14 @@
+@media screen and (min-width: 300px){
+    iframe{
+        width: 100%;
+        height: 823px;
+        
+    }
+}
+iframe:focus {
+    outline: none;
+  }
+  
+  iframe[seamless] {
+    display: block;
+  }
