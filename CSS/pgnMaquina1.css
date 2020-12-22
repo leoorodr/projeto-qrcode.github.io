@@ -7,6 +7,12 @@
   width: 100%;
 }
 
+.paragrafo h4{
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px;
+
+}
 /* Background do SENAI */
 #imgsenai {
   top: -10px;
@@ -48,13 +54,13 @@
 
 .paragrafo {
   position: relative;
-  margin-top: 220px;
-  text-align: center;
+  margin-top: 1000px;
+  text-align: center;  
 }
 
 .paragrafo,
 h3 {
-  margin-top: 350px;
+  margin-top: 300px;
 }
 
 .imgmaquina {
