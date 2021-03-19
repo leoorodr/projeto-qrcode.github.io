@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
+    <link rel="stylesheet" href="./CSS/menu-pgnCrud.css"/>
+    <link rel="stylesheet" href="./CSS/pgnCrud.css"/>
+    <script src="./js/dom.js" defer ></script>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="/CSS/pgnCrud.css">
-    <link rel="stylesheet" href="/CSS/menu-pgnCrud.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
+    <title>Adicionando máquinas</title>
 </head>
-
 <body>
+    
     <header>
         <img id="imgsenai" src="https://grafica.sp.senai.br/img/senai_facebook.png" />
     </header>
@@ -20,8 +18,10 @@
     <div class="barra">
         <input type=image id="botaoverm" class="toggle-menu"
             src="https://image.flaticon.com/icons/png/512/56/56763.png" />
-        <h1>CRUD de Máquinas</h1>
+        <h1>Cadastro de máquinas</h1>
     </div>
+
+    
 
     <div class="wrapper">
         <div class="canvas">
@@ -30,31 +30,49 @@
             <div class="menu">
                 <a href="#" class="toggle-menu btn">Fechar o menu</a>
                 <ul>
+                   
                     <label class="cameraButton">Abrir a câmera
                         <input type="file" accept="image/*;capture=camera">
                     </label>
-                    <li><a class="maquina" href="index.html">Home</a></li>
-                    <li><a class="maquina" href="pgnMaquina1.html">Torno Schaublin</a></li>
-                    <li><a class="maquina" href="#">Máquina 2</a></li>
-                    <li><a class="maquina" href="#">Máquina 3</a></li>
+
+                    <li><a class="maquina" href="index.html">Home</a></li> 
+                    
+                <li>
+                    <ul id="menu">
+                        
+                    </ul>
+                </li>
+
                 </ul>
             </div>
-
-
-            <center>
-            <div class="texto">
-                <h1>Delete alguma máquina:</h1>
-                <a href="deleteMaquina.html"><button class="btnMaqui">Máquinas</button></a>
-    
-                <h1>Crie alguma máquina</h1>
-                <a href="uploadMaquina.html"><button class="btnCrud">Adicionar Máquinas</button></a>
-            </div>
-            </center>
-
-
         </div>
+            
+    <!-- #Lista -->
+    <ul id='lista'></ul>
+
+    <!-- #Adicionar -->
+    <div class="pt1">
+    <form id="adicionar" data-id="300" class="teste">
+    <label for="nome_maquina">Nome<label>
+    <input type="text" name="nome_maquina" id="nome_maquina">
     </div>
 
+    <div class="pt2">
+    <label for="descricao_maquina">Descrição</label>
+    <textarea name="descricao_maquina"
+    id="descricao_maquina" cols="30" rows="8"></textarea>
+    </div>
+
+    <div class="pt3">
+    <label for="midias_maquina">Imagens</label>      
+    <input name="midias_maquina" id="midias_maquina" type="file" multiple ,/>
+
+    <br>    <br>    <br>
+
+    <button class="btn">Enviar</button>
+    </div>  
+
+    
     <footer>        
         <img src="/IMG/logosenai.png" alt="logo senai" class="logo">
         <Br>
@@ -65,6 +83,6 @@
     </footer>
 
     <script src="/JS/menu.js"></script>
-</body>
 
+</body>
 </html>

@@ -28,7 +28,7 @@ html{
     font-family: Roboto;
     position: absolute;
     color: #E0EEEE;
-    font-size: 27px;
+    font-size: 25px;
     text-align: center;
     width: 250px;
     top: 50%;
@@ -36,28 +36,6 @@ html{
     margin-right: -50%;
     transform: translate(-50%, -50%)
 }
-
-/* Texto */
-.paragrafo h3 {
-    text-align: center;
-    line-height: 25px;    
-    font-family: 'Asap', sans-serif;    
-    text-align: center;
-    font-size: 20px;        
-    line-height: 24px;
-}
-
-
-/* Imagem dos alunos */
-.imgalunos {
-    position: static;
-    border-radius: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 90%;
-    height: 100%;   
-}
-
 
 /* botão home */
 #botaoverm {
@@ -69,38 +47,6 @@ html{
     height: 40px;
     border-radius: 7px;
     padding: 5px;
-}
-
-.btns{
-    position: absolute;
-    margin-top: 20px;
-    
-
-}
-
-.btnMaqui{
-    position: relative;
-    background-color: #BF0000; 
-    border-radius: 36px; 
-    padding: 15px; 
-    cursor: pointer; 
-    border: none; 
-    font-size: 16px; 
-    margin-top: 10px;
-    width: 65%;
-    color: #ffffff;
-}
-.btnCrud{
-    position: relative;
-    background-color: #BF0000; 
-    border-radius: 36px; 
-    padding: 15px; 
-    cursor: pointer; 
-    border: none; 
-    font-size: 16px; 
-    margin-top: 10px;
-    width: 65%;
-    color: #ffffff;
 }
  
 footer{
@@ -128,14 +74,33 @@ strong{
     transform: translate(-50%) 
 }
 
-.texto h1{
-    font-size: 20px;
-    padding: 0;
-    margin-top: 45px;
+#nome_maquina{
+padding: 5px;
+border-radius: 15px;
+}
+
+#descricao_maquina{    
+border-radius: 15px;
+}
+
+.btn{    
+border-radius: 15px;
+padding: 10px;
+background-color: #ff0000;
 }
 
 
+.pt1{
+padding: 20px;
+}
 
+.pt2{
+padding: 20px;
+}
+
+.pt3{
+padding: 20px;
+}
 
 
 /* RESPONSIVIDADE */ /* RESPONSIVIDADE */

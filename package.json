@@ -4,12 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js" 
-    },
-    "dependencies": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
     "express": "^4.17.1"
-    },
-    "devDependencies": {
+  },
+  "devDependencies": {
     "nodemon": "^2.0.1"
-    }
-    }
+  }
+}
